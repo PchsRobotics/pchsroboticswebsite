@@ -17,3 +17,11 @@
 .lead-video{
 	display:block;
 }
+
+.contain-elements{
+	overflow:hidden;
+}
+
+.center-me{
+	margin:0 auto;
+}
