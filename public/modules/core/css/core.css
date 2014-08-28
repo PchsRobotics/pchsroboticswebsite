@@ -14,6 +14,11 @@
     border-color:#78FA89;
 }
 
+.lead-video-container{
+	margin-top:8px;
+	margin-bottom:8px;
+}
+
 .lead-video{
 	display:block;
 }
