@@ -8,14 +8,10 @@ angular.module('core').controller('HomeController', ['$scope', 'Authentication',
 		
 		$scope.myInterval = 5000;
   		var slides = $scope.slides = [];
-  		slides.push({
-	  		image:'http://thepetcollective.tv/wp-content/uploads/2013/09/inbred-white-tiger-kenny-1.jpg',
-			text:'This is a tiger with downs syndrome'
-		});
-		
+
 		for(var i = 10; i < 83; i++){
 			slides.push({
-	  			image:'modules/core/img/robotics/' + i + '.jpg',
+	  			image:'modules/core/img/robotpics/' + i + '.jpg',
 				text:'Swag'
 			});
 		}
