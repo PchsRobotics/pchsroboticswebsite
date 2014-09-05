@@ -13,7 +13,7 @@ angular.module('core').controller('HomeController', ['$scope', 'Authentication',
 			text:'This is a tiger with downs syndrome'
 		});
 		
-		for(var i = 0; i < 83; i++){
+		for(var i = 10; i < 83; i++){
 			slides.push({
 	  			image:'modules/core/img/robotics/' + i + '.jpg',
 				text:'Swag'
