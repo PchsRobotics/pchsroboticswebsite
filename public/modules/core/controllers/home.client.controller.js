@@ -15,7 +15,7 @@ angular.module('core').controller('HomeController', ['$scope', 'Authentication',
 		
 		for(var i = 0; i < 83; i++){
 			slides.push({
-	  			image:'modules/core/img/robotics' + i + '.jpg',
+	  			image:'modules/core/img/robotics/' + i + '.jpg',
 				text:'Swag'
 			});
 		}
