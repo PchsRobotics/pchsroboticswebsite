@@ -12,5 +12,12 @@ angular.module('core').controller('HomeController', ['$scope', 'Authentication',
 	  		image:'http://thepetcollective.tv/wp-content/uploads/2013/09/inbred-white-tiger-kenny-1.jpg',
 			text:'This is a tiger with downs syndrome'
 		});
+		
+		for(var i = 0; i < 83; i++){
+			slides.push({
+	  			image:'modules/core/img/robotics' + i + '.jpg',
+				text:'Swag'
+			});
+		}
 	}
 ]);
